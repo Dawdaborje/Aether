@@ -1,3 +1,10 @@
 [workspace]
-members = ["aether", "aether_cli", "core/aether_core", "core/event_bus", "core/orm", "core/web"]
+members = [
+    "aether",
+    "aether_cli", "bridges/documents/docusign", "bridges/documents/google_drive", "bridges/documents/mayan_edms", "bridges/documents/nextcloud",
+    "facets/aether_core",
+    "facets/event_bus",
+    "facets/orm",
+    "facets/web",
+]
 resolver = "2"
