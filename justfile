@@ -1,4 +1,4 @@
 default: dev-serve
 
 dev-serve:
-    cargo run --bin aether
+    cargo run --bin aether -- --serve

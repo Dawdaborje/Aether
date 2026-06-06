@@ -1,16 +1,4 @@
 [plugin]
 name = "inventory"
-label = "Inventory Management System"
-description = """
-
-"""
-icon = "./assets/inventory.svg"
-
-# route_config = "./routes.toml"
-# perm_config = "./perms.toml"
-
-[[routes]]
-name = "inventory.home"
-file = "./pages/home.json"
-
-[[hooks]]
+label = "Inventory"
+description = "Inventory management plugin for ERP system"

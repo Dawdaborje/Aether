@@ -1,7 +1,10 @@
 [workspace]
 members = [
     "aether",
-    "aether_cli", "bridges/documents/docusign", "bridges/documents/google_drive", "bridges/documents/mayan_edms", "bridges/documents/nextcloud",
+    "bridges/documents/docusign",
+    "bridges/documents/google_drive",
+    "bridges/documents/mayan_edms",
+    "bridges/documents/nextcloud",
     "facets/aether_core",
     "facets/event_bus",
     "facets/orm",

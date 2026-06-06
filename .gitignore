@@ -25,5 +25,7 @@ rustc-ice-*.txt
 
 .env
 
-aether.conf
-aether.conf.toml
+**/*/dist/*
+
+db.conf.toml
+external.plugins.conf

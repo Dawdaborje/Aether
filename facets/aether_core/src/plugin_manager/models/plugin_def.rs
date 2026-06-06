@@ -6,8 +6,8 @@ pub struct PluginDefinition {
     pub name: String,
     pub label: String,
     pub version: String,
+    pub description: String,
     pub long_description: String,
-    pub short_description: String,
     pub icon_path: String,
     pub routes: PluginRouteDef,
 }

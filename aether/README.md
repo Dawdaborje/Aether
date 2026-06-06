@@ -1,3 +1,3 @@
 # Aether Server
 
-This is the server that runs the aether
+This is the server and cli runtime that runs the aether
