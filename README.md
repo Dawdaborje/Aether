@@ -127,7 +127,7 @@ name    = "invoice.posted"
 handler = "on_invoice_posted"
 ```
 
-UI pages are defined in `.ae` XML files:
+UI pages are defined in XML files:
 
 ```xml
 <page route="/accounting/invoices" model="accounting.invoice" title="Invoices">
