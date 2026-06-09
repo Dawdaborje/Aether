@@ -32,6 +32,27 @@ struct Args {
     #[arg(short, long, action = clap::ArgAction::SetTrue)]
     // Generate a default configuration for the system and exit
     initialize: bool,
+
+    // database
+    #[arg(long)]
+    // Surreal db namespace
+    db_namespace: Option<String>,
+
+    #[arg(long)]
+    // Surreal db user
+    db_user: Option<String>,
+
+    #[arg(long)]
+    // Surreal db user password
+    db_password: Option<String>,
+
+    #[arg(long)]
+    // Surreal db host
+    db_host: Option<String>,
+
+    #[arg(long, default_value = "8000")]
+    // Surreal db port
+    db_port: Option<u16>,
 }
 
 #[tokio::main]
